@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <link rel="shortcut icon" type="x-icon" href="./img/favicon-32x32.png">
+    <title>Hoodmood - szkoła tańca i managment talentów</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a5949c9eb9.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "kpZaZioWtxksVs2YD",
+            });
+        })();
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#hero">
+                <img class="logo" src="img/logo.png" alt="logo strony">
+            </a>
+            <ul class="navlist">
+                <li><a href="#about-us" class="nav-item">o nas</a></li>
+                <li><a href="#staff" class="nav-item">kadra</a></li>
+                <li><a href="#pricing" class="nav-item">cennik</a></li>
+                <li><a href="#schedule" class="nav-item">grafik</a></li>
+                <li><a href="#contact" class="nav-item">Zapisz się</a></li>
+            </ul>
+
+            <div class="hamburger"> <i class="fa-solid fa-bars"></i></div>
+
+        </nav>
+    </header>
+    <div class="navlist-modal">
+        <div class="navlist-modal__box">
+            <i class="fa-solid fa-xmark close"></i>
+
+            <a class="nav-link" href="#about-us">o nas</a>
+            <a class="nav-link" href="#staff">kadra</a>
+            <a class="nav-link" href="#pricing">cennik</a>
+            <a class="nav-link" href="#schedule">grafik</a>
+            <a class="nav-link" href="#contact">Zapisz się</a>
+
+            <div class="navlist-modal__box-icons">
+                <a href="https://www.facebook.com/profile.php?id=100070445546249" target="_blank" rel="noopener"><img
+                        src="./svg/facebook.svg" alt="ikona facebook" class="icon"></a>
+                <a href="https://www.instagram.com/hoodmood_dancestudio/" target="_blank" rel="noopener"><img
+                        src="./svg/instagram-svgrepo-com.svg" alt="ikona instagram" class="icon"></a>
+                <a href="https://www.youtube.com/@hoodmooddancestudio9404" target="_blank" rel="noopener"><img
+                        src="./svg/youtube-svgrepo-com.svg" alt="ikona youtube" class="icon"></a>
+            </div>
+        </div>
+    </div>
+    <section class="hero" id="hero">
+        <div>
+            <h1 class="title-header">hoodmood</h1>
+        </div>
+        <p class="title-fill">szkoła tańca z pasją</p>
+
+        <div class="btn-box">
+            <button class="arrow-down-btn"><a href="#about-us"></a></button>
+        </div>
+    </section>
+    <div class="wrapper">
+        <section class="standard about-us" id="about-us">
+            <h2 class="section-title">O nas</h2>
+            <div class="about-us-container">
+                <div class="about-us-video" data-aos="fade-right" data-aos-duration="1500">
+                    <iframe width="100%" height="100%"
+                        src="https://www.youtube.com/embed/y38GZYjmuXA?si=GBoRm8JMhCV0peJe" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="about-us-text" data-aos="fade-left" data-aos-duration="1500">
+                    <span>szkoła tańca i managementu talentów hoodmood</span>
+                    <p>Hoodmood to miejsce dla wszystkich, którzy chcą zgłębić wiedzę na temat różnych technik
+                        tanecznych,
+                        tworzenia ruchu, kompozycji tańca oraz własnego wizerunku.
+                        Głównym celem naszej szkoły jest ciągły rozwój i podwyższanie świadomości tanecznej naszych
+                        podopiecznych.
+                    </p>
+                    <button class="basic-btn"><a href="">Więcej filmów</a></button>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        </section>
+        <section class="standard staff" id="staff">
+            <h2 class="section-title">Kadra</h2>
+            <div class="staff-box">
+
+                <div class="staff-card" data-aos="zoom-in" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="./img/staff/talita.jpg" class="staff-card-photo" alt="">
+                    <div class="staff-card-text">
+                        <p class="staff-card-title">Talita Jarzęcka</p>
+                        <p class="staff-card-role">CEO</p>
+                    </div>
+                </div>
+
+                <div class="staff-card" data-aos="zoom-in" data-aos-duration="1000">
+
+                    <img src="./img/staff/adrianna.jpg" class="staff-card-photo" alt="">
+                    <div class="staff-card-text">
+                        <p class="staff-card-title">Adrianna Jendroszek</p>
+                        <p class="staff-card-role">Zajęcia aktorskie</p>
+                    </div>
+                </div>
+                <div class="staff-card" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="./img/staff/daniela.jpg" class="staff-card-photo" alt="">
+                    <div class="staff-card-text">
+                        <p class="staff-card-title">Daniela Kolańska</p>
+                        <p class="staff-card-role">Taniec współczesny</p>
+                    </div>
+                </div>
+                <div class="staff-card" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="./img/staff/joanna.jpg" class="staff-card-photo" alt="">
+                    <div class="staff-card-text">
+                        <p class="staff-card-title">Joanna Mazurek</p>
+                        <p class="staff-card-role">Nowożeńcy</p>
+                    </div>
+                </div>
+                <div class="staff-card" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="./img/staff/krzysztof.jpg" class="staff-card-photo" alt="">
+                    <div class="staff-card-text">
+                        <p class="staff-card-title">Krzysztof Wikowicz</p>
+                        <p class="staff-card-role">Akrobatyka</p>
+                    </div>
+                </div>
+                <div class="staff-card" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="./img/staff/magdalena.jpg" class="staff-card-photo" alt="">
+                    <div class="staff-card-text">
+                        <p class="staff-card-title">Magdalena Sokołowska-Japona</p>
+                        <p class="staff-card-role">Hip-hop/House</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="standard map">
+            <h3 data-aos="zoom-in" data-aos-duration="1000">Tu nas znajdziesz</h3>
+            <div class="map-box" data-aos="zoom-in" data-aos-duration="600">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2334.4151146167796!2d16.191388499999995!3d54.19043359999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4701cdd275367db1%3A0x9d5fd845442ce6ca!2sHoodmood%20Dance%20Studio!5e0!3m2!1spl!2spl!4v1708127396216!5m2!1spl!2spl"
+                    width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="map-info" data-aos="zoom-in" data-aos-duration="1000">
+                    <h4>kontakt</h4>
+                    <p><img src="./svg/white-pin-alt-svgrepo-com.svg" alt="ikona pinezki">
+                        Zwycięstwa 115, 75-211 Koszalin</p>
+                    <p><img src="./svg/white-mail-01-svgrepo-com.svg" alt="ikona koperty">
+                        hoodmood.dancestudio@gmail.com</p>
+                    <p><img src="./svg/white-telephone-phone-svgrepo-com.svg" alt="ikona telefonu">
+                        +48 577 198 599</p>
+                </div>
+            </div>
+        </section>
+        <section class="standard pricing" id="pricing">
+            <h2 class="section-title">Cennik</h2>
+            <div class="button-scroller snaps-inline">
+                <button class="scroll-element" id="kids">dzieci i młodzież</button>
+                <button class="scroll-element" id="beatHunters">The Beat Hunters</button>
+                <button class="scroll-element" id="qualityCrew">Quality Crew</button>
+                <button class="scroll-element" id="adults">Dorośli</button>
+                <button class="scroll-element" id="custom">Lekcje indywidualne</button>
+            </div>
+            <div class="pricing-sections" data-aos="fade-right" data-aos-duration="1500">
+                <div class="price-list kids displayGrid">
+                    <p>dzieci i młodzież</p>
+                    <ul>
+                        <li class="ul-header">nazwa zajęć <span>cena</span></li>
+                        <li>Taniec dla 4-5 latków <span>140zł</span></li>
+                        <li>Akrobatyka 5-8 lat <span>150zł</span></li>
+                        <li>Akrobatyka 9-13 lat <span>210zł</span></li>
+                        <li>Young Generation 7-9 lat <span>200zł</span></li>
+                        <li>Formacja taneczna 11+ <span>150zł</span></li>
+                        <li>Taniec współczesny - początkujący <span>200zł</span></li>
+                        <li>Taniec współczesny - zaawansowany <span>190zł</span></li>
+                        <li>Taniec współczesny - zaawansowany + spektakl <span>300zł</span></li>
+                    </ul>
+                </div>
+                <div class="price-list beatHunters">
+
+                    <p class="experience">the beat hunters</p>
+
+                    <p class="group-info-modal">Zaawansowane grupy dla bardziej doświadczonych tancerzy</p>
+                    <ul>
+                        <li class="ul-header">nazwa zajęć <span>cena</span></li>
+                        <li>Pakiet podstawowy<span>260zł</span></li>
+                        <li>Podstawa + akrobatyka/taniec współczesny/freestyle<span>300zł</span></li>
+                        <li>Podstawa + akrobatyka + taniec współczesny<span>350zł</span></li>
+                        <li>Podstawa + freestyle + taniec współczesny<span>350zł</span></li>
+                    </ul>
+                </div>
+                <div class="price-list qualityCrew">
+
+                    <p class="experience">Quality Crew</p>
+                    <p class="group-info-modal">Zaawansowane grupy dla bardziej doświadczonych tancerzy</p>
+                    <ul>
+                        <li class="ul-header">nazwa zajęć <span>cena</span></li>
+                        <li>Formacja + freestyle/akrobatyka<span>260zł</span></li>
+                        <li>Formacja + spektakl<span>300zł</span></li>
+                        <li>Formacja + freestyle + spektakl<span>350zł</span></li>
+                        <li>Formacja + akrobatyka + spektakl<span>350zł</span></li>
+                    </ul>
+                </div>
+                <div class="price-list adults">
+                    <p>Dorośli</p>
+                    <ul>
+                        <li class="ul-header">nazwa zajęć <span>cena</span></li>
+                        <li>Strong fitness<span>190zł</span></li>
+                        <li>Formacja taneczna<span>190zł</span></li>
+
+                    </ul>
+                </div>
+                <div class="price-list custom">
+                    <p>lekcje indywidualne</p>
+                    <ul>
+                        <li class="ul-header">nazwa zajęć <span>cena</span></li>
+                        <li>Dancehall<span>120zł</span></li>
+                        <li>Hip-hop<span>120zł</span></li>
+                        <li>House<span>120zł</span></li>
+                        <li>Nowożeńcy<span>170zł</span></li>
+                    </ul>
+                </div>
+                <p class="price-list-info">
+                    Podane ceny to jednorazowa miesięczna opłata. Wyjątkiem są lekcje indywidualne.
+                    Częstotliwość zajęć można sprawdzić w <a href="#schedule">grafiku</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="socials" data-aos="fade-up">
+            <p>Bądź na bieżąco!</p>
+            <div class="navlist-modal__box-icons socials-icon">
+                <a href="https://www.facebook.com/profile.php?id=100070445546249" target="_blank" rel="noopener"><img
+                        src="./svg/facebook.svg" alt="ikona facebook" class="icon"></a>
+                <a href="https://www.instagram.com/hoodmood_dancestudio/" target="_blank" rel="noopener"><img
+                        src="./svg/instagram-svgrepo-com.svg" alt="ikona instagram" class="icon"></a>
+                <a href="https://www.youtube.com/@hoodmooddancestudio9404" target="_blank" rel="noopener"><img
+                        src="./svg/youtube-svgrepo-com.svg" alt="ikona youtube" class="icon"></a>
+            </div>
+        </section>
+
+        <section class="standard schedule" id="schedule">
+            <h2 class="section-title">grafik</h2>
+            <div class="schedule-table" data-aos="fade-left" data-aos-duration="1500">
+                <table cellspacing="2px">
+                    <thead>
+
+                        <th>Poniedziałek</th>
+                        <th>Wtorek</th>
+                        <th>Środa</th>
+                        <th>czwartek</th>
+                        <th>piątek</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Akrobatyka 9-13 lat
+                                <span>16:00 - 17:00</span>
+                            </td>
+                            <td>Taniec dla 4/5 latków<span>16:30-17:15</span></td>
+                            <td>Young Generation/ekipa 7-9 lat
+                                <span>16:00 - 17:00</span>
+                            </td>
+                            <td>Disco Dance 6-9 lat
+                                <span>16:00 - 17:00</span>
+                            </td>
+                            <td>Taniec współczesny - początkujący
+                                <span>16:00 - 17:00</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Taniec współczesny - początkujący<span>17:00 - 18:00</span></td>
+                            <td>Young Generation/ekipa 7-9 lat<span>17:30-18:30</span></td>
+                            <td>Formacja taneczna 11+ - początkujący<span>17:00 - 18:00</span></td>
+                            <td>Akrobatyka 5-8 lat<span>17:00 - 18:00</span></td>
+                            <td>Taniec współczesny - zaawansowani<span>17:00-18:30</span></td>
+                        </tr>
+                        <tr>
+                            <td>The Beat Hunters<span>18:00 - 19:00</span></td>
+                            <td>Formacja taneczna dla dorosłych<span>19:00-20:30</span></td>
+                            <td>The Beat Hunters/ekipa 9-12 lat<span>18:00-19:30</span></td>
+                            <td>Strong Fitness<span>19:00-20:30</span></td>
+                            <td>Spektakl taneczny - zaawansowani<span>18:30-20:00</span></td>
+                        </tr>
+                        <tr>
+                            <td>Quality Crew formacja/ekipa 13-17 lat<span>19:00 - 20:30</span></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Freestyle practise<span>20:30-21:30</span></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <button class="download-schedule basic-btn"><a href="./pdf/jpg2pdf (4).pdf" attributes-list
+                    download="hoodmood-grafik2024">Pobierz grafik</a></button>
+        </section>
+        <section class="standard contact" id="contact">
+            <h2 class="section-title">Zapisz się</h2>
+            <div class="form-box" data-aos="fade-right" data-aos-duration="1500">
+                <div class="form-box-img">
+                    <img src="./img/form-img-min.png" alt="">
+                </div>
+                <div class="form-box-form">
+                    <p>Dołącz do nas!</p>
+                    <form id="form">
+                        <div class="form-box-form-item"> <label for="name">Imię i nazwisko:</label>
+                            <input type="text" name="name" id="name" onkeydown="return /[a-zA-Z]/i.test(event.key)"
+                                required placeholder="Twoje imię i nazwisko">
+                        </div>
+                        <div class="form-box-form-item"><label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email" required placeholder="Twój adres e-mail">
+                        </div>
+                        <div class="form-box-form-item"><label for="number">Numer telefonu:</label>
+                            <input type="tel" name="number" id="number" required placeholder="Twój numer telefonu"
+                                pattern="[0-9]*" maxlength="9">
+                        </div>
+                        <div class="form-box-form-item"><label for="subject">Rodzaj zajęć:</label>
+                            <select name="subject" id="subject" required>
+                                <option value="" selected disabled>Wybierz zajęcia</option>
+                                <option>Taniec</option>
+                                <option>Akrobatyka</option>
+                                <option>Fitness</option>
+                                <option>Formacja taneczna</option>
+                            </select>
+                        </div>
+                        <div class="form-box-form-item"><label for="message">Wiadomość:</label>
+                            <textarea name="message" id="message" placeholder="Chciał(a)bym zapisać się na zajęcia..."
+                                required></textarea>
+                        </div>
+                        <button type="button" id="submit" class="submit-btn">Wyślij</button>
+                    </form>
+                    <dialog class="modal" id="modal">
+                        <img src="/svg/cross-svgrepo-com.svg" alt="ikona krzyżyka" class="cross-btn" id="cross-btn">
+                        <img src="/svg/checkmark2-svgrepo-com.svg" alt="ikona znacznika wyboru" class="checkmark-icon">
+                        <p class="modal-title">Sukces!</p>
+                        <p>Wiadomość została wysłana poprawnie</p>
+                        <button class="close-modal-ok" id="ok-btn">ok</button>
+                    </dialog>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <div class=" footer-socials">
+                <a href="https://www.facebook.com/profile.php?id=100070445546249" target="_blank" rel="noopener"
+                    class="contact-info-icon"><img src="./svg/fb-black.svg" alt="ikona facebook">
+                    Facebook</a>
+                <a href="https://www.instagram.com/hoodmood_dancestudio/" target="_blank" rel="noopener"
+                    class="contact-info-icon"><img src="./svg/ig-black.svg" alt="ikona instagram">
+                    Instagram</a>
+                <a href="https://www.youtube.com/@hoodmooddancestudio9404" target="_blank" rel="noopener"
+                    class="contact-info-icon"><img src="./svg/yt-black.svg" alt="ikona youtube">
+                    Youtube</a>
+            </div>
+            <div class="paragraph-box">
+                <p class="footer-paragraph hood">Hoodmood&copy; <span id="year"></span></p>
+                <p class="footer-paragraph">made by <a
+                        href="https://www.linkedin.com/in/antoni-gapi%C5%84ski-1537b4276/" target="_blank"
+                        rel="noopener" class="footer-link">@gapinski</a></p>
+            </div>
+
+            <div class="contact-info">
+                <p class="contact-info-icon"><img src="./svg/pin-alt-svgrepo-com.svg" alt="ikona pinezki">
+                    Zwycięstwa 115, 75-211 Koszalin</p>
+                <p class="contact-info-icon"><img src="./svg/mail-01-svgrepo-com.svg" alt="ikona koperty">
+                    hoodmood.dancestudio@gmail.com</p>
+                <p class="contact-info-icon"><img src="./svg/telephone-phone-svgrepo-com.svg" alt="ikona telefonu">
+                    +48 577 198 599</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>

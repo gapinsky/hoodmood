@@ -1,0 +1,151 @@
+@keyframes btnBgc{
+    0%{
+
+    }
+    100%{
+        color: white;
+        background-color: #e2547f;
+        
+    }
+  }
+
+
+  @keyframes sliderShape{
+                        0%,100%{
+                        border-radius: 42% 58% 33% 30% / 45% 45% 55% 55%;
+                          transform: translate3d(0,0,0) rotateZ(0.01deg) translateX(34%);
+                        }
+                        34%{
+                            border-radius: 70% 90% 46% 54% / 30% 29% 71% 70%;
+                          transform:  translate3d(0,5px,0) rotateZ(0.01deg) translateX(-34%) translateY(-34%);
+                        }
+                        50%{
+                          transform: translate3d(0,0,0) rotateZ(0.01deg) translateX(-50%) translateY(-20%);
+                        }
+                        67%{
+                          border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+                          transform: translate3d(0,-3px,0) rotateZ(0.01deg) translateX(-67%) translateY(-4%);
+                        }
+                      }
+
+
+
+@keyframes btnSlide {
+    from{
+        // bottom: -20%;
+        margin-bottom: 50vh;
+        opacity: 0;
+    }
+    to{
+        // bottom: 10%;
+        opacity: 1;
+    }
+}
+
+@keyframes title-header-slide {
+    from{
+        margin-left: 150%;
+    }
+    to{
+        margin-left: 0;
+    }
+    
+}
+
+@keyframes title-fill-slide {
+    from{
+        transform: translateX(-100vw)
+    }
+    to{
+        transform: translateX(0)
+    }
+    
+}
+
+@keyframes slideIn {
+    from{
+        right : 100%;
+    }
+    to{
+        right : 0%;
+    }
+}
+
+@keyframes slideOut {
+    from{
+        right: 0%;
+    }
+    to{
+        right: 110%;
+    }
+}
+
+@keyframes modalSlideIn {
+    from{
+        opacity: 0;
+       
+        transform: translateY(250%);
+    }
+    to{
+        opacity: 1;
+       
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in{
+    to{
+        scale: 1;
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+@keyframes fade-out {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes hero-img-animation{
+    25%{
+        opacity: 1;
+    }
+    85%, 100%{
+        opacity: 0;
+        scale: 2;
+    }
+}
+
+@keyframes border-pulse {
+   30%{
+    opacity: 1;
+   }
+    to{
+        scale: 2;
+        opacity: 0;
+    }
+}
+
+@keyframes nav-links-slide {
+    to{
+        margin-left: 0%;
+        opacity: 1;
+    }
+}
+
+.scroll-fade-out{
+    animation: fade-out linear forwards;
+    animation-timeline: view();
+    animation-range: exit;
+}
+
+.slide-in{
+    animation: nav-links-slide forwards linear .5s;
+}
